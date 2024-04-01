@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing-page</title>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/index.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header_wrapper">
+                <a href="#"><img class="header_logo-img" src="./img/logo.svg" alt="logo"></a>
+                <ul class="header_burger">
+                    <li class="header_burger-list"></li>
+                    <li class="header_burger-list"></li>
+                    <li class="header_burger-list"></li>
+                </ul>
+                <nav class="menu">
+                    <ul class="menu_list">
+                        <li class="menu_list-item"><a href="#">Бизнес</a></li>
+                        <li class="menu_list-item"><a href="#">О нас</a></li>
+                        <li class="menu_list-item"><a href="#">Цены</a></li>
+                        <li class="menu_list-item"><a href="#">Оформить заказ</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <nav class="menumobile">
+        <img class="menumobile_close" src="./img/close.svg" alt="close">
+        <ul class="menumobile_list">
+            <li class="menumobile_list-item"><a href="#">Бизнес</a></li>
+            <li class="menumobile_list-item"><a href="#">О нас</a></li>
+            <li class="menumobile_list-item"><a href="#">Цены</a></li>
+            <li class="menumobile_list-item"><a href="#">Оформить заказ</a></li>
+        </ul>
+    </nav>
+    <main class="main">
+        <div class="about">
+            <div class="container">
+                <div class="about_wrapper">
+                    <h1 class="about_title"><span>Lorem ipsum</span> dolor sit amet consectetur <br><span>adipiscing</span></h1>
+                    <ul class="about_list">
+                        <li class="about_list-item"><p><span>At vero eos et accusamus et iusto odio dignissimos ducimus!</span></p></li>
+                        <li class="about_list-item"><p>Totam rem aperiam eaque ipsa</p></li>
+                        <li class="about_list-item"><p>Sit voluptatem accusantium doloremque laudantium</p></li>
+                        <li class="about_list-item"><p>Sed ut perspiciatis, unde omnis iste natus error</p></li>
+                    </ul>
+                    <div class="about_buttons">
+                        <button class="about_button blue-btn">заказать</button>
+                        <button class="about_button default-btn">подробнее</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="order">
+            <div class="container">
+                <div class="order_wrapper">
+                    <h2 class="order_title">Оформление <span>заказа</span></h2>
+                    <p class="order_subtitle">Перед заполнением формы ознакомьтесь с нашей схемой работы!</p>
+                    <ul class="order_list">
+                        <li class="order_list-item">
+                            <div class="order_list-circle">
+                                <img src="./img/search.svg" alt="search">
+                            </div>
+                            <p>Lorem ipsum dolor
+                                sit amet</p>
+                        </li>
+                        <li class="order_list-item">
+                            <div class="order_list-circle">
+                                <img src="./img/procent.svg" alt="search">
+                            </div>
+                            <p>Сonsecteturadipiscing elit</p>
+                        </li>
+                        <li class="order_list-item">
+                            <div class="order_list-circle">
+                                <img src="./img/document.svg" alt="search">
+                            </div>
+                            <p>Sed do eiusmod tempor</p>
+                        </li>
+                        <li class="order_list-item">
+                            <div class="order_list-circle">
+                                <img src="./img/email.svg" alt="search">
+                            </div>
+                            <p>Esse cillum dolore
+                                eu fugiat</p>
+                        </li>
+                        <li class="order_list-item">
+                            <div class="order_list-circle">
+                                <img src="./img/money.svg" alt="search">
+                            </div>
+                            <p>Excepteur sint occaecat cupidatat non proident</p>
+                        </li>
+                    </ul>
+                    <form  class="order_form">
+                        <div class="select_form-wrapper">
+                            <button  class="select_form-button" value="default">Выберите тип системы</button>
+                            <ul class="select_form none">
+                            <li class="select_form-item" data-value="perspiciatis">Sed ut perspiciatis</li>
+                            <li class="select_form-item" data-value="ipsam">Nemo enim ipsam
+                            </li>
+                            <li class="select_form-item" data-value="quidem">Et harum quidem
+                            </li>
+                            <li class="select_form-item" data-value="autem">Temporibus autem
+                            </li>
+                            <li class="select_form-item" data-value="rerum">Itaque earum rerum
+                            </li>
+                            <li class="select_form-item" data-value="ipsam">Nemo enim ipsam
+                            </li>
+                            <li class="select_form-item" data-value="quidem">Et harum quidem
+                            </li>
+                            <li class="select_form-item" data-value="autem">Temporibus autem
+                            </li>
+                            <li class="select_form-item" data-value="rerum">Itaque earum rerum
+                            </li>
+                            <li class="select_form-item" data-value="ipsam">Nemo enim ipsam
+                            </li>
+                            <li class="select_form-item" data-value="quidem">Et harum quidem
+                            </li>
+                            <li class="select_form-item" data-value="autem">Temporibus autem
+                            </li>
+                            <li class="select_form-item" data-value="rerum">Itaque earum rerum
+                            </li>
+                            </ul>
+                        </div>
+                        <input class="select_form-input" type="" placeholder="Ваш e-mail">
+                        <input class="select_form-input" type="text" value="" placeholder="Ваше имя">
+                        <div class="order_item">
+                            <div class="range_input">
+                                <div class="range_input-info">
+                                    <p>Sed ut perspiciatis, unde omnis iste natus</p>
+                                    <p class="range_procent"></p>
+                                </div>
+                                <input class="range_input-item" value="" type="range">
+                            </div>
+                            <div class="select_file-wrapper">
+                                    <input class="select_file" type="file">
+                                    <span class="select_file-info">Прикрепите файл</span>
+                            </div>
+                        </div>
+                        <div class="order_form_button-wrapper">
+                            <button class="order_form_button blue-btn">Отправить</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer_wrapper">
+                <p class="footer_about">
+                    © 2018 «LoremIpsum.net» Все права защищены.
+                </p>
+                <ul class="footer_pay">
+                    <li class="footer_pay-list"><img src="./img/qiwi.svg" alt="qiwi">Qiwi wallet</li>
+                    <li class="footer_pay-list"><img src="./img/moneybabs.svg" alt="pay">Yandex Money</li>
+                    <li class="footer_pay-list"><img src="./img/webmon.svg" alt="web-money">Web Money</li>
+                </ul>
+                <ul class="footer_public">
+                    <li class="footer_public-list"><a href="#"><img src="./img/mailInfo.svg" alt="mail">info@ipsum228.com</a></li>
+                    <li class="footer_public-list"><a href="#"><img src="./img/vk.svg" alt="vk">Мы вконтакте</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/index.js"></script>
+</body>
+</html>
